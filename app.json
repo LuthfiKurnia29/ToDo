@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "ToDo",
+    "name": "Routine List",
     "slug": "ToDo",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.luthfi29.ToDo"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.luthfi29.ToDo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e8b45bc7-8b8a-4e38-b61c-1d8298893d7a"
+      }
     }
   }
 }
