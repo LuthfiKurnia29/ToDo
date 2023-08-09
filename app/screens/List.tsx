@@ -22,7 +22,7 @@ const List = ({ navigation }: any) => {
       next: (snapshot) => {
         console.log("UPDATED");
         const todos: any[] = [];
-        snapshot.docs.forEach((doc) => {
+        snapshot.docs.map((doc) => {
           console.log(doc.data());
           todos.push({
             id: doc.id,
